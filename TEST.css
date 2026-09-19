@@ -1,0 +1,120 @@
+.search-box {
+    position: relative;
+    width: 500px;
+}
+
+.search-box .form-control {
+    padding-right: 55px;
+    height: 45px;
+}
+
+.search-btn {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 36px;
+    height: 36px;
+
+    border: none;
+    border-radius: 50%;
+
+    background-color: #0056d2;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-wrapper {
+    max-width: 1050px;
+    margin: 0 auto;
+}
+.banner {
+    width: 100%;
+    max-width: 1100px;
+    height: 280px;
+
+    border-radius: 25px;
+    padding: 35px 45px;
+
+    display: flex;
+    align-items: center;
+
+    color: white;
+    overflow: hidden;
+}
+
+.banner-blue {
+    background-color: #0056d2;
+    background-image: url(https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6DlfCo60D5DQ5ZKntUZ6lz/9649f8b51cfa8764c3f6972983113aa1/Global__Catch-All__Main_Campaign_C__Promo_Landing_Page_Desktop-680x400.webp?auto=format%2Ccompress&dpr=1&w=679");
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 55% 100%;
+}
+
+.banner-dark {
+    background-color: #101214;
+
+    background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/7rRrpygAFUOCYOaR1TMup7/e306fc0a5be42ee294717eb24ccb739b/BC-5459_AI_Domain_Growth_Campaign_ExploreHero_1440x800.webp?auto=format%2C%20compress&dpr=1&w=720&h=400&q=40&fit=clip");
+
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 55% 100%;
+}
+
+.banner-content {
+    width: 50%;
+}
+
+.banner-content h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.banner-content h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.banner-content p {
+    font-size: 17px;
+    max-width: 550px;
+}
+.banner img {
+    width: 48%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.carousel-indicators {
+    position: static;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+
+    border: 0;
+    border-radius: 50%;
+
+    background-color: #aaa;
+
+    opacity: 1;
+}
+
+.carousel-indicators button.active {
+    width: 25px;
+    border-radius: 10px;
+    background-color: #0056d2;
+}

@@ -1,0 +1,1420 @@
+
+        
+
+        :root {
+
+            --blue: #0056d2;
+            --dark-blue: #002b5c;
+            --navy: #061f49;
+
+            --text: #111827;
+            --muted: #42526b;
+
+            --light-blue: #f1f6ff;
+            --border: #d6e0ef;
+
+            --white: #ffffff;
+
+        }
+
+
+   
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+
+            margin: 0;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            color: var(--text);
+
+            background: #ffffff;
+
+        }
+
+
+        a {
+            text-decoration: none;
+        }
+
+
+        .container {
+
+            max-width: 1450px;
+
+        }
+
+
+        
+
+        .top-nav {
+
+            background: #101214;
+
+            min-height: 48px;
+
+        }
+
+
+        .top-nav .container {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 0;
+
+        }
+
+
+        .top-link {
+
+            color: white;
+
+            padding: 14px 22px;
+
+            font-size: 16px;
+
+            font-weight: 500;
+
+            position: relative;
+
+        }
+
+
+        .top-link:hover {
+
+            color: white;
+
+        }
+
+
+        .top-link.active {
+
+            font-weight: 700;
+
+        }
+
+
+        .top-link.active::after {
+
+            content: "";
+
+            position: absolute;
+
+            bottom: 0;
+
+            left: 20px;
+
+            right: 20px;
+
+            height: 4px;
+
+            background: white;
+
+        }
+
+
+        
+
+        .main-navbar {
+
+            background: white;
+
+            border-bottom: 1px solid #d9e0ea;
+
+            min-height: 82px;
+
+        }
+
+
+        .navbar-brand {
+
+            font-size: 34px;
+
+            font-weight: 700;
+
+            color: var(--blue) !important;
+
+            letter-spacing: -2px;
+
+        }
+
+
+        .explore-btn {
+
+            border: 0;
+
+            background: transparent;
+
+            color: #183b68;
+
+            font-size: 16px;
+
+            padding: 12px 15px;
+
+        }
+
+
+        .degrees-link {
+
+            color: #183b68;
+
+            font-size: 16px;
+
+            padding: 12px 15px;
+
+        }
+
+
+        
+
+        .search-wrapper {
+
+            height: 58px;
+
+            border: 1px solid #d6deea;
+
+            border-radius: 32px;
+
+            display: flex;
+
+            align-items: center;
+
+            overflow: hidden;
+
+            flex: 1;
+
+            max-width: 620px;
+
+            margin-left: 15px;
+
+            background: white;
+
+        }
+
+
+        .search-wrapper input {
+
+            border: 0;
+
+            outline: 0;
+
+            box-shadow: none;
+
+            flex: 1;
+
+            height: 100%;
+
+            padding: 0 20px;
+
+            font-size: 18px;
+
+            color: #183b68;
+
+        }
+
+
+        .search-wrapper input:focus {
+
+            box-shadow: none;
+
+        }
+
+
+        .search-button {
+
+            width: 58px;
+
+            height: 58px;
+
+            border: 0;
+
+            border-radius: 50%;
+
+            background: var(--blue);
+
+            color: white;
+
+            font-size: 24px;
+
+            margin-right: -1px;
+
+        }
+
+
+        .ai-icon {
+
+            color: #5846e8;
+
+            font-size: 25px;
+
+        }
+
+
+        .login {
+
+            color: var(--blue);
+
+            font-size: 16px;
+
+            font-weight: 500;
+
+        }
+
+
+        .join-btn {
+
+            border: 1px solid var(--blue);
+
+            color: var(--blue);
+
+            background: white;
+
+            padding: 12px 20px;
+
+            border-radius: 7px;
+
+            font-size: 16px;
+
+            font-weight: 700;
+
+        }
+
+
+        .join-btn:hover {
+
+            background: var(--light-blue);
+
+            color: var(--blue);
+
+        }
+
+
+        
+
+        main {
+
+            overflow: hidden;
+
+        }
+
+
+        .section {
+
+            margin-top: 45px;
+
+            margin-bottom: 45px;
+
+        }
+
+
+        .section-title {
+
+            font-size: 25px;
+
+            font-weight: 700;
+
+            margin-bottom: 18px;
+
+        }
+
+
+        
+
+       .promo-banner {
+
+    min-height: 240px;
+
+    border-radius: 28px;
+
+    overflow: hidden;
+
+    position: relative;
+
+    padding: 38px 30px;
+
+    color: white;
+}
+
+
+/* =========================
+   PLUS
+========================= */
+
+.promo-plus {
+
+    background-color: #d51fae;
+
+    background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/wp1lcwdav1p1/6DlfCo60D5DQ5ZKntUZ6lz/9649f8b51cfa8764c3f6972983113aa1/Global__Catch-All__Main_Campaign_C__Promo_Landing_Page_Desktop-680x400.webp?auto=format%2Ccompress&dpr=1&w=679");
+
+    background-repeat: no-repeat;
+
+    background-position: right center;
+
+    background-size: 55% 100%;
+}
+
+
+/* =========================
+   BUSINESS
+========================= */
+
+.promo-business {
+
+    background-color: #101214;
+
+    background-image: url("https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://images.ctfassets.net/00atxywtfxvd/7rRrpygAFUOCYOaR1TMup7/e306fc0a5be42ee294717eb24ccb739b/BC-5459_AI_Domain_Growth_Campaign_ExploreHero_1440x800.webp?auto=format,%20compress&dpr=1&w=720&h=400&q=40&fit=clip");
+
+    background-repeat: no-repeat;
+
+    background-position: right center;
+
+    background-size: 55% 100%;
+}
+
+
+/* remove old circle */
+
+.promo-banner::after {
+    display: none;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.promo-content {
+
+    position: relative;
+
+    z-index: 2;
+
+    max-width: 48%;
+}
+
+
+.promo-logo {
+
+    font-size: 28px;
+
+    font-weight: 700;
+}
+
+
+.promo-logo span {
+
+    border: 2px solid white;
+
+    padding: 1px 5px;
+
+    font-size: 17px;
+
+    margin-left: 5px;
+}
+
+
+.promo-banner h2 {
+
+    font-size: 27px;
+
+    line-height: 1.2;
+
+    font-weight: 700;
+
+    margin-top: 15px;
+}
+
+
+.promo-banner p {
+
+    font-size: 17px;
+
+    margin-bottom: 20px;
+}
+
+
+.promo-btn {
+
+    background: white;
+
+    color: var(--blue);
+
+    border: 0;
+
+    border-radius: 8px;
+
+    padding: 12px 20px;
+
+    font-weight: 700;
+}
+
+
+        
+
+        .partners-wrapper {
+
+            display: flex;
+
+            gap: 12px;
+
+            overflow-x: auto;
+
+            scrollbar-width: none;
+
+            padding-bottom: 5px;
+
+        }
+
+
+        .partners-wrapper::-webkit-scrollbar {
+
+            display: none;
+
+        }
+
+
+        .partner-pill {
+
+            min-width: max-content;
+
+            border: 1px solid #dbe3ef;
+
+            border-radius: 30px;
+
+            padding: 13px 20px;
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 10px;
+
+            background: white;
+
+            font-size: 16px;
+
+            font-weight: 600;
+
+        }
+
+
+        .partner-logo {
+
+            width: 27px;
+
+            height: 27px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-weight: 700;
+
+        }
+
+
+        
+
+        .quick-card {
+
+            background: #f5f2ff;
+
+            min-height: 140px;
+
+            border-radius: 22px;
+
+            padding: 30px 22px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+            position: relative;
+
+            overflow: hidden;
+
+            font-size: 22px;
+
+            font-weight: 700;
+
+        }
+
+
+        .quick-card::after {
+
+            content: "";
+
+            position: absolute;
+
+            width: 160px;
+
+            height: 160px;
+
+            right: -30px;
+
+            top: -50px;
+
+            background: rgba(126, 88, 255, .08);
+
+            transform: rotate(25deg);
+
+        }
+
+
+        .quick-icon {
+
+            color: var(--blue);
+
+            font-size: 55px;
+
+            position: relative;
+
+            z-index: 2;
+
+        }
+
+
+        
+
+        .category-wrapper {
+
+            display: flex;
+
+            flex-wrap: wrap;
+
+            gap: 10px;
+
+        }
+
+
+        .category-pill {
+
+            border: 0;
+
+            background: #eef5ff;
+
+            border-radius: 30px;
+
+            padding: 13px 20px;
+
+            font-size: 16px;
+
+            color: #111;
+
+            white-space: nowrap;
+
+        }
+
+
+        .category-pill i {
+
+            margin-right: 7px;
+
+            font-size: 18px;
+
+        }
+
+
+        .category-pill:hover {
+
+            background: #dceaff;
+
+        }
+
+
+        
+
+        .trending-box {
+
+            background: #e7f0ff;
+
+            border-radius: 12px;
+
+            padding: 18px;
+
+            height: 100%;
+
+        }
+
+
+        .trending-title {
+
+            font-size: 20px;
+
+            font-weight: 700;
+
+            margin-bottom: 15px;
+
+        }
+
+
+        .mini-course {
+
+            background: white;
+
+            border-radius: 10px;
+
+            padding: 10px;
+
+            margin-bottom: 10px;
+
+            display: flex;
+
+            gap: 12px;
+
+            min-height: 85px;
+
+        }
+
+
+        .mini-course:last-child {
+
+            margin-bottom: 0;
+
+        }
+
+
+        .mini-image {
+
+            width: 82px;
+
+            height: 65px;
+
+            object-fit: cover;
+
+            border-radius: 8px;
+
+            flex-shrink: 0;
+
+        }
+
+
+        .mini-provider {
+
+            color: #46668e;
+
+            font-size: 14px;
+
+        }
+
+
+        .mini-name {
+
+            font-weight: 700;
+
+            font-size: 15px;
+
+            line-height: 1.2;
+
+            margin-top: 3px;
+
+        }
+
+
+        .mini-rating {
+
+            color: #3d5778;
+
+            font-size: 13px;
+
+            margin-top: 5px;
+
+        }
+
+
+        
+
+        .course-gradient {
+
+            border-radius: 28px;
+
+            padding: 25px 20px 20px;
+
+            background:
+
+                linear-gradient(
+                    105deg,
+                    #0563e7 0%,
+                    #57a2ef 48%,
+                    #7bd66c 100%
+                );
+
+            color: white;
+
+        }
+
+
+        .gradient-title {
+
+            font-size: 25px;
+
+            font-weight: 700;
+
+        }
+
+
+        .gradient-subtitle {
+
+            font-size: 17px;
+
+            margin-bottom: 20px;
+
+        }
+
+
+        .topic-tabs {
+
+            display: flex;
+
+            gap: 10px;
+
+            overflow-x: auto;
+
+            margin-bottom: 10px;
+
+            scrollbar-width: none;
+
+        }
+
+
+        .topic-tabs::-webkit-scrollbar {
+
+            display: none;
+
+        }
+
+
+        .topic-tab {
+
+            border: 1px solid #ddd;
+
+            background: white;
+
+            color: #111;
+
+            padding: 9px 18px;
+
+            border-radius: 25px;
+
+            white-space: nowrap;
+
+            font-size: 16px;
+
+        }
+
+
+        .topic-tab.active {
+
+            background: #111827;
+
+            color: white;
+
+            border-color: #111827;
+
+        }
+
+
+        
+
+        .course-card {
+
+            background: white;
+
+            color: #111;
+
+            border-radius: 18px;
+
+            overflow: hidden;
+
+            border: 1px solid #d4dce8;
+
+            height: 100%;
+
+            box-shadow: 0 2px 8px rgba(0,0,0,.05);
+
+            transition: .2s ease;
+
+        }
+
+
+        .course-card:hover {
+
+            transform: translateY(-4px);
+
+            box-shadow: 0 10px 25px rgba(0,0,0,.15);
+
+        }
+
+
+        .course-image {
+
+            width: 100%;
+
+            height: 190px;
+
+            object-fit: cover;
+
+        }
+
+
+        .course-body {
+
+            padding: 15px;
+
+        }
+
+
+        .course-provider {
+
+            color: #46668e;
+
+            font-size: 14px;
+
+            margin-bottom: 7px;
+
+        }
+
+
+        .course-name {
+
+            font-size: 18px;
+
+            font-weight: 700;
+
+            min-height: 45px;
+
+        }
+
+
+        .course-rating {
+
+            color: #46668e;
+
+            font-size: 14px;
+
+            margin-top: 15px;
+
+        }
+
+
+        
+
+        .career-card {
+
+            border: 1px solid var(--border);
+
+            border-radius: 13px;
+
+            overflow: hidden;
+
+            height: 100%;
+
+            background: white;
+
+        }
+
+
+        .career-image {
+
+            width: 100%;
+
+            height: 165px;
+
+            object-fit: cover;
+
+            background: #f8eadc;
+
+        }
+
+
+        .career-body {
+
+            padding: 18px;
+
+        }
+
+
+        .career-body h4 {
+
+            font-size: 19px;
+
+            font-weight: 700;
+
+        }
+
+
+        .career-body p {
+
+            color: #3c5b80;
+
+            font-size: 16px;
+
+            line-height: 1.5;
+
+        }
+
+
+        
+
+        .outcome {
+
+            border-radius: 28px;
+
+            background:
+
+                linear-gradient(
+                    100deg,
+                    #03285d,
+                    #0a3c7e
+                );
+
+            min-height: 245px;
+
+            color: white;
+
+            padding: 35px;
+
+            position: relative;
+
+            overflow: hidden;
+
+        }
+
+
+        .outcome h2 {
+
+            font-size: 25px;
+
+            font-weight: 700;
+
+        }
+
+
+        .outcome p {
+
+            max-width: 700px;
+
+            font-size: 18px;
+
+            line-height: 1.5;
+
+        }
+
+
+        .outcome-circle {
+
+            position: absolute;
+
+            right: 30px;
+
+            top: -80px;
+
+            width: 340px;
+
+            height: 340px;
+
+            border-radius: 50%;
+
+            border: 35px solid rgba(38, 190, 218, .8);
+
+            box-shadow:
+
+                inset 0 0 0 30px rgba(32, 103, 237, .8);
+
+        }
+
+
+        .outcome-percent {
+
+            position: absolute;
+
+            right: 125px;
+
+            top: 80px;
+
+            font-size: 55px;
+
+            font-weight: 700;
+
+            z-index: 2;
+
+        }
+
+
+        
+
+        .testimonial {
+
+            border: 1px solid #cbd7e7;
+
+            border-radius: 10px;
+
+            padding: 20px;
+
+            height: 100%;
+
+            background: white;
+
+        }
+
+
+        .person {
+
+            display: flex;
+
+            align-items: center;
+
+            gap: 15px;
+
+            margin-bottom: 20px;
+
+        }
+
+
+        .person img {
+
+            width: 75px;
+
+            height: 75px;
+
+            border-radius: 50%;
+
+            object-fit: cover;
+
+        }
+
+
+        .person-name {
+
+            font-size: 18px;
+
+            font-weight: 700;
+
+        }
+
+
+        .testimonial p {
+
+            color: #34547d;
+
+            font-size: 18px;
+
+            line-height: 1.55;
+
+        }
+
+
+        
+
+        .faq .accordion-item {
+
+            border: 0;
+
+            border-bottom: 1px solid #c9d4e3;
+
+        }
+
+
+        .faq .accordion-button {
+
+            background: white;
+
+            color: #111;
+
+            box-shadow: none;
+
+            padding: 22px 10px;
+
+            font-size: 18px;
+
+            font-weight: 700;
+
+        }
+
+
+        .faq .accordion-button:not(.collapsed) {
+
+            background: #eef5ff;
+
+        }
+
+
+        
+
+        footer {
+
+            background: #f2f6fc;
+
+            border-top: 1px solid #d4deeb;
+
+            margin-top: 70px;
+
+            padding-top: 60px;
+
+        }
+
+
+        .footer-title {
+
+            font-size: 20px;
+
+            font-weight: 700;
+
+            margin-bottom: 14px;
+
+        }
+
+
+        .footer-link {
+
+            display: block;
+
+            color: #111;
+
+            margin-bottom: 13px;
+
+            font-size: 16px;
+
+        }
+
+
+        .footer-link:hover {
+
+            text-decoration: underline;
+
+        }
+
+
+        .store-badge {
+
+            width: 190px;
+
+            height: 55px;
+
+            background: #000;
+
+            color: white;
+
+            border-radius: 7px;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            margin-bottom: 30px;
+
+            font-weight: 600;
+
+        }
+
+
+        .store-badge i {
+
+            font-size: 30px;
+
+            margin-right: 10px;
+
+        }
+
+
+        .footer-bottom {
+
+            border-top: 1px solid #ccd7e5;
+
+            margin-top: 45px;
+
+            padding: 35px 0;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: space-between;
+
+        }
+
+
+        .socials {
+
+            display: flex;
+
+            gap: 22px;
+
+        }
+
+
+        .socials i {
+
+            width: 35px;
+
+            height: 35px;
+
+            border-radius: 50%;
+
+            background: #000;
+
+            color: white;
+
+            display: flex;
+
+            align-items: center;
+
+            justify-content: center;
+
+            font-size: 18px;
+
+        }
+
+
+        
+
+        @media (max-width: 991px) {
+
+            .top-nav {
+
+                display: none;
+
+            }
+
+
+            .main-navbar {
+
+                min-height: auto;
+
+            }
+
+
+            .navbar-brand {
+
+                font-size: 29px;
+
+            }
+
+
+            .search-wrapper {
+
+                max-width: none;
+
+                margin: 15px 0;
+
+                width: 100%;
+
+            }
+
+
+            .promo-banner {
+
+                min-height: 280px;
+
+            }
+
+
+            .outcome-circle {
+
+                opacity: .3;
+
+                right: -100px;
+
+            }
+
+
+            .outcome-percent {
+
+                right: 70px;
+
+            }
+
+        }
+
+
+        @media (max-width: 767px) {
+
+            .section {
+
+                margin-top: 30px;
+
+                margin-bottom: 30px;
+
+            }
+
+
+            .promo-banner {
+
+                padding: 25px;
+
+                border-radius: 20px;
+
+            }
+
+
+            .promo-banner h2 {
+
+                font-size: 23px;
+
+            }
+
+
+            .course-gradient {
+
+                border-radius: 20px;
+
+            }
+
+
+            .course-image {
+
+                height: 170px;
+
+            }
+
+
+            .outcome {
+
+                padding: 25px;
+
+            }
+
+
+            .outcome-circle {
+
+                display: none;
+
+            }
+
+
+            .outcome-percent {
+
+                display: none;
+
+            }
+
+
+            .footer-bottom {
+
+                flex-direction: column;
+
+                gap: 25px;
+
+                text-align: center;
+
+            }
+
+        }
+
+   
